@@ -5,18 +5,11 @@ const Counter = ({value=0}) => {
 
   const [ counter, setCounter ] = useState(0);
 
-  const handleAdd = (e) => {
-    setCounter(counter + 1);
-  }
+  const handleAdd = (e) => setCounter(counter + 1);
 
-  const resetCounter = (e) => {
-    setCounter(value);
-  }
+  const resetCounter = (e) => setCounter(value);
 
-  const handleSubstract = (e) => {
-    setCounter(counter - 1);
-  }
-
+  const handleSubstract = (e) => setCounter(counter - 1);
 
   return (
     <>
