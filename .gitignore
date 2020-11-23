@@ -13,6 +13,8 @@
 
 # Optional eslint cache
 .eslintcache
+.cache
+.eslint-release-info.json
 
 # misc
 .DS_Store
