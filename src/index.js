@@ -7,6 +7,8 @@ import './index.css';
 const divRoot = document.querySelector('#root');
 
 ReactDOM.render(
-  <Welcome title={"First App"}/>,
+  <Welcome
+    title={"First App"}
+  />,
   divRoot
   );
