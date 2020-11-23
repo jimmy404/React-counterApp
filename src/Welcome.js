@@ -1,12 +1,17 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const Welcome = () => {
+const Welcome = ({title}) => {
+
   return (
     <>
-      <h1>Welcome Jimmy</h1>
-      <h2>Welcome Jimmy</h2>
+      <h1>{title}</h1>
     </>
   );
+}
+
+Welcome.propTypes = {
+  title: PropTypes.string.isRequired
 }
 
 export default Welcome;
