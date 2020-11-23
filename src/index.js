@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Welcome from './Welcome';
+import Counter from './Counter';
 
 import './index.css';
 
 const divRoot = document.querySelector('#root');
 
 ReactDOM.render(
-  <Welcome
-    title={"First App"}
+  <Counter
+    value={10}
   />,
   divRoot
   );
