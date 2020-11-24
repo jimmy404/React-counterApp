@@ -1,7 +1,9 @@
+describe('Test in file demo.test.js', () =>{
+  test('Second test - Strings equals', () => {
+    const message1 = 'Hello Jimmy';
+    const message2 = `Hello Jimmy`;
 
-test('First test - result> true', () => {
-  const isActive = true;
-  if(isActive){
-    throw new Error('Is not active');
-  }
-})
+    expect(message1).toBe(message2);
+  })
+});
+
